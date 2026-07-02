@@ -1,0 +1,616 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "nom": "Grela",
+      "prenom": "ELSON Jacquecin",
+      "email": "admin@univ-online.fr",
+      "telephone": "+33 6 45 89 23 10",
+      "password": "Admin123!",
+      "role": "admin",
+      "dateInscription": "2026-06-23T00:21:44.289Z"
+    },
+    {
+      "id": "student1",
+      "nom": "Martin",
+      "prenom": "Pierre",
+      "email": "pierre.martin@univ-online.fr",
+      "telephone": "+33 7 12 34 56 78",
+      "password": "Student123!",
+      "role": "student",
+      "dateInscription": "2026-06-23T00:21:44.291Z",
+      "formationsInscrites": [
+        {
+          "formationId": 1,
+          "modules": [
+            {
+              "nom": "Conception Web (React)",
+              "progression": 60
+            },
+            {
+              "nom": "Backend & APIs (Express/Node)",
+              "progression": 40
+            },
+            {
+              "nom": "Bases de Données (MongoDB)",
+              "progression": 10
+            },
+            {
+              "nom": "Architecture Logicielle",
+              "progression": 0
+            },
+            {
+              "nom": "Introduction à l'Intelligence Artificielle",
+              "progression": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user_1782174354180",
+      "nom": "Grela",
+      "prenom": "Jacquecin",
+      "email": "jacquecingrelae@gmail.com",
+      "telephone": "+33 6 45 61 75 88",
+      "password": "grela1234",
+      "role": "student",
+      "dateInscription": "2026-06-23T00:25:54.180Z",
+      "formationsInscrites": []
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "titre": "Informatique & Génie Logiciel",
+      "description": "Développement d'applications web, mobiles et cloud. Apprentissage intensif des architectures modernes, React, Node.js et bases de données.",
+      "prix": 2500,
+      "duree": "3 ans",
+      "niveau": "Licence",
+      "image": "💻",
+      "categorie": "informatique",
+      "modules": [
+        {
+          "nom": "Conception Web (React)",
+          "progression": 0
+        },
+        {
+          "nom": "Backend & APIs (Express/Node)",
+          "progression": 0
+        },
+        {
+          "nom": "Bases de Données (MongoDB)",
+          "progression": 0
+        },
+        {
+          "nom": "Architecture Logicielle",
+          "progression": 0
+        },
+        {
+          "nom": "Introduction à l'Intelligence Artificielle",
+          "progression": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Gestion d'Entreprise & Management",
+      "description": "Management, finance, comptabilité et entrepreneuriat. Pour devenir un leader capable de structurer et d'accélérer les projets d'entreprise.",
+      "prix": 2200,
+      "duree": "3 ans",
+      "niveau": "Licence",
+      "image": "📊",
+      "categorie": "gestion",
+      "modules": [
+        {
+          "nom": "Comptabilité Générale",
+          "progression": 0
+        },
+        {
+          "nom": "Marketing & Stratégie",
+          "progression": 0
+        },
+        {
+          "nom": "Ressources Humaines",
+          "progression": 0
+        },
+        {
+          "nom": "Droit commercial et fiscal",
+          "progression": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Droit des Affaires Internationales",
+      "description": "Droit civil, des sociétés et négociations internationales. Maîtrisez les contrats et protections juridiques pour les organisations globales.",
+      "prix": 2800,
+      "duree": "4 ans",
+      "niveau": "Master",
+      "image": "⚖️",
+      "categorie": "droit",
+      "modules": [
+        {
+          "nom": "Droit civil & des Obligations",
+          "progression": 0
+        },
+        {
+          "nom": "Droit pénal des Affaires",
+          "progression": 0
+        },
+        {
+          "nom": "Droit international comparé",
+          "progression": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Marketing Digital & Communication",
+      "description": "SEO, SEM, publicité en ligne et stratégies réseaux sociaux. Apprenez à concevoir et piloter la croissance digitale des marques.",
+      "prix": 2000,
+      "duree": "2 ans",
+      "niveau": "Master",
+      "image": "📱",
+      "categorie": "marketing",
+      "modules": [
+        {
+          "nom": "SEO & Content Marketing",
+          "progression": 0
+        },
+        {
+          "nom": "SEM & Social Ads",
+          "progression": 0
+        },
+        {
+          "nom": "Stratégie de Contenu",
+          "progression": 0
+        },
+        {
+          "nom": "Web Analytics & Tracking",
+          "progression": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Data Science & Big Data",
+      "description": "Statistiques avancées, Python, Machine Learning et data visualization. Devenez un expert de l'analyse prédictive et des données.",
+      "prix": 3000,
+      "duree": "2 ans",
+      "niveau": "Master",
+      "image": "📈",
+      "categorie": "informatique",
+      "modules": [
+        {
+          "nom": "Programmation Python pour la Data",
+          "progression": 0
+        },
+        {
+          "nom": "Algorithmes de Machine Learning",
+          "progression": 0
+        },
+        {
+          "nom": "Deep Learning & NLP",
+          "progression": 0
+        },
+        {
+          "nom": "Data Visualization & Reporting",
+          "progression": 0
+        }
+      ]
+    }
+  ],
+  "candidatures": [
+    {
+      "id": "cand1",
+      "userId": "student1",
+      "nom": "Martin",
+      "prenom": "Pierre",
+      "email": "pierre.martin@univ-online.fr",
+      "formation": "informatique",
+      "niveau": "licence3",
+      "statut": "admis",
+      "lettre": "Je souhaite vivement me réorienter vers le développement web pour donner suite à mes projets personnels.",
+      "date": "2026-06-20T00:21:44.291Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg1",
+      "senderName": "Prof. Martin",
+      "senderRole": "tutor",
+      "receiverName": "ELSON Jacquecin Grela",
+      "text": "Bonjour ! Bienvenue sur UNIV-ONLINE. Je suis votre professeur référent pour les cours d'Informatique. Comment se déroule votre rentrée ?",
+      "date": "2026-06-22T22:21:44.291Z"
+    },
+    {
+      "id": "msg2",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "ELSON Jacquecin Grela",
+      "text": "Votre dossier de candidature a bien été enregistré. N'hésitez pas à nous envoyer votre lettre de motivation si ce n'est pas déjà fait.",
+      "date": "2026-06-22T20:21:44.291Z"
+    },
+    {
+      "id": "msg_1782174286704",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Aide au devoirs en JavaScript",
+      "date": "2026-06-23T00:24:46.704Z"
+    },
+    {
+      "id": "msg_1782174312341",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue chez UNIV-ONLINE ! C'est un réel plaisir de vous accueillir et de vous accompagner dans votre projet d'apprentissage. Concernant votre demande d'aide pour vos devoirs en JavaScript, sachez que notre université en ligne place l'accompagnement personnalisé au cœur de sa pédagogie. Nos tuteurs spécialisés en développement web et informatique sont quotidiennement disponibles pour guider nos étudiants, les aider à surmonter les blocages techniques et à maîtriser les concepts clés de la programmation.\n\nSi vous êtes déjà inscrit dans l'un de nos cursus, vous pouvez planifier dès aujourd'hui une session de tutorat individuel ou poser vos questions sur nos forums d'entraide via votre espace étudiant. Si vous êtes actuellement en phase d'orientation, sachez que nos formations intègrent toutes ce suivi méthodologique et technique de proximité. Notre équipe d'admission se tient à votre entière disposition pour vous présenter nos programmes et vous guider dans vos démarches d'inscription afin que vous puissiez bénéficier rapidement de ce soutien.\n\nApprendre le JavaScript est un défi stimulant et une compétence très recherchée. Avec la bonne méthode et notre accompagnement bienveillant, vous progresserez rapidement et avec assurance. N'hésitez pas à revenir vers nous pour toute question relative à votre future scolarité chez UNIV-ONLINE ; nous avons hâte de vous compter parmi nos étudiants et de vous accompagner vers la réussite de vos projets !",
+      "date": "2026-06-23T00:25:12.341Z"
+    },
+    {
+      "id": "msg_1782174836477",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les frais de scolarité ?",
+      "date": "2026-06-23T00:33:56.477Z"
+    },
+    {
+      "id": "msg_1782174864918",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue à l'UNIV-ONLINE ! Nous sommes ravis de l'intérêt que vous portez à nos formations en ligne. Soucieuse de rendre l'enseignement supérieur accessible au plus grand nombre, notre université propose des tarifs compétitifs et transparents, adaptés à la flexibilité de l'apprentissage à distance. Les frais de scolarité varient selon le cursus choisi (Licence, Master ou certificat professionnel) et le rythme d'apprentissage que vous adoptez, se situant généralement entre 1 500 € et 3 500 € par année universitaire.\n\nAfin de vous accompagner sereinement dans la réussite de votre projet d'études, nous proposons des facilités de paiement, telles que l'échelonnement des frais de scolarité mensuellement, ainsi que des possibilités d'aides financières et de bourses selon votre situation. Pour obtenir une estimation précise et personnalisée, je vous invite à nous indiquer la formation qui retient votre attention. Toute l'équipe des admissions reste à votre entière disposition pour vous guider pas à pas dans vos démarches d'inscription !",
+      "date": "2026-06-23T00:34:24.918Z"
+    },
+    {
+      "id": "msg_1782175204365",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les cursus disponibles ?",
+      "date": "2026-06-23T00:40:04.365Z"
+    },
+    {
+      "id": "msg_1782175208726",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Comment candidater en ligne ?",
+      "date": "2026-06-23T00:40:08.726Z"
+    },
+    {
+      "id": "msg_1782175230859",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue à UNIV-ONLINE ! Nous sommes ravis de l'intérêt que vous portez à notre établissement. Pour répondre à votre question, nous proposons une vaste gamme de cursus 100 % en ligne, allant de la Licence au Master, ainsi que des certifications professionnelles. Nos programmes couvrent des domaines clés tels que les Sciences Humaines, le Management et la Gestion, les Technologies du Numérique, le Droit, et les Sciences de la Santé, tous conçus pour s'adapter à votre rythme de vie.\n\nChoisir UNIV-ONLINE, c'est opter pour une formation d'excellence, flexible et reconnue, tout en bénéficiant d'un accompagnement personnalisé par notre équipe de tuteurs dévoués. Chaque parcours est pensé pour maximiser votre réussite académique et faciliter votre insertion ou évolution professionnelle, où que vous soyez dans le monde.\n\nNous vous invitons à consulter notre catalogue complet sur notre plateforme d'admission pour découvrir le détail de chaque filière. N'hésitez pas à nous faire part du domaine qui vous passionne le plus afin que nous puissions vous guider pas à pas dans vos futures démarches d'inscription !",
+      "date": "2026-06-23T00:40:30.859Z"
+    },
+    {
+      "id": "msg_1782175241889",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue à l'UNIV-ONLINE ! Nous sommes ravis de l'intérêt que vous portez à notre établissement et nous vous remercions pour votre démarche. Pour candidater en ligne, le processus est entièrement dématérialisé et conçu pour être le plus fluide possible. Il vous suffit de vous rendre sur notre portail d'admission officiel, accessible depuis la page d'accueil de notre site web via l'onglet « Candidature ». \n\nUne fois sur le portail, vous serez guidé pas à pas : il vous suffira de créer votre espace personnel, de sélectionner la formation visée, puis de téléverser vos pièces justificatives (généralement votre CV, une lettre de motivation, vos relevés de notes et une pièce d'identité). Vous pourrez enregistrer votre dossier à tout moment et y revenir plus tard avant la validation finale. Après soumission, notre commission d'admission étudiera votre profil avec la plus grande attention et vous recevrez une réponse directement dans votre espace.\n\nSachez que toute l'équipe administrative et vos futurs tuteurs sont à vos côtés pour faire de cette inscription une réussite. N'hésitez pas à nous solliciter si vous avez la moindre question technique ou pédagogique durant votre parcours. Nous avons hâte de découvrir votre projet académique et de vous accompagner vers votre réussite !",
+      "date": "2026-06-23T00:40:41.889Z"
+    },
+    {
+      "id": "msg_1782176243253",
+      "senderName": "ELSON Jacquecin Grela",
+      "senderRole": "student",
+      "receiverName": "Administration",
+      "text": "Comment candidater en ligne ?",
+      "date": "2026-06-23T00:57:23.253Z"
+    },
+    {
+      "id": "msg_1782176274335",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "ELSON Jacquecin Grela",
+      "text": "Bonjour Monsieur Elson Jacquecin Grela. C'est un réel plaisir de vous accompagner dans vos démarches d'inscription au sein de notre université UNIV-ONLINE. Pour déposer votre candidature en ligne, il vous suffit de vous rendre sur notre portail d'admission officiel via l'onglet « Candidature » de notre site web. Vous y créerez votre espace personnel sécurisé, qui vous permettra de sélectionner la formation de votre choix et de remplir votre dossier étape par étape, à votre rythme.\n\nPour finaliser votre demande, il vous sera demandé de téléverser quelques pièces justificatives numérisées, telles que vos diplômes antérieurs, vos relevés de notes, un CV et une lettre de motivation. Une fois votre dossier soumis, notre commission pédagogique l'étudiera avec la plus grande attention et vous recevrez une réponse dans les meilleurs délais. Toute l'équipe administrative d'UNIV-ONLINE reste à votre entière disposition pour vous guider, et nous vous souhaitons une excellente réussite dans ce beau projet académique !",
+      "date": "2026-06-23T00:57:54.335Z"
+    },
+    {
+      "id": "msg_1782176459516",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Aide au devoirs en JavaScript",
+      "date": "2026-06-23T01:00:59.516Z"
+    },
+    {
+      "id": "msg_1782176459836",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour Visiteur Intéressé, merci pour votre prise de contact. Pour toute assistance immédiate liée à votre inscription ou scolarité générale, l'administration reste présente du lundi au vendredi. Comment puis-je vous guider ?",
+      "date": "2026-06-23T01:00:59.836Z"
+    },
+    {
+      "id": "msg_1782176482907",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les frais de scolarité ?",
+      "date": "2026-06-23T01:01:22.907Z"
+    },
+    {
+      "id": "msg_1782176506408",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue à UNIV-ONLINE ! Nous sommes ravis de l'intérêt que vous portez à notre établissement et nous vous remercions pour votre démarche. Les frais de scolarité au sein de notre université en ligne sont conçus pour être à la fois compétitifs et transparents. Ils varient principalement en fonction du niveau d'études (Licence, Master ou certificats professionnels) et du rythme d'apprentissage que vous choisissez d'adopter.\n\nEn moyenne, nos tarifs s'étendent de 1 500 € à 4 500 € par année universitaire. Ce montant englobe l'accès illimité à notre plateforme d'apprentissage de pointe, l'accompagnement personnalisé par nos tuteurs universitaires, ainsi que l'ensemble des ressources pédagogiques numériques. De plus, afin de rendre nos formations accessibles au plus grand nombre, nous proposons des solutions de financement flexibles, telles que le paiement échelonné en plusieurs mensualités sans frais, ainsi que des éligibilités aux bourses d'études.\n\nPour obtenir une estimation précise et adaptée à votre projet professionnel, nous vous invitons à nous préciser la formation qui retient votre attention. Notre équipe d'admission reste à votre entière disposition pour vous guider pas à pas et faire de votre inscription une réussite. Ensemble, construisons votre avenir académique !",
+      "date": "2026-06-23T01:01:46.408Z"
+    },
+    {
+      "id": "msg_1782194666399",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les frais de scolarité ?",
+      "date": "2026-06-23T06:04:26.399Z"
+    },
+    {
+      "id": "msg_1782194675053",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour Visiteur Intéressé, merci pour votre prise de contact. Pour toute assistance immédiate liée à votre inscription ou scolarité générale, l'administration reste présente du lundi au vendredi. Comment puis-je vous guider ?",
+      "date": "2026-06-23T06:04:35.053Z"
+    },
+    {
+      "id": "msg_1782195088482",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les frais de scolarité ?",
+      "date": "2026-06-23T06:11:28.482Z"
+    },
+    {
+      "id": "msg_1782195088859",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour Visiteur Intéressé, merci pour votre prise de contact. Pour toute assistance immédiate liée à votre inscription ou scolarité générale, l'administration reste présente du lundi au vendredi. Comment puis-je vous guider ?",
+      "date": "2026-06-23T06:11:28.859Z"
+    },
+    {
+      "id": "msg_1782195096974",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Comment candidater en ligne ?",
+      "date": "2026-06-23T06:11:36.974Z"
+    },
+    {
+      "id": "msg_1782195123613",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour et bienvenue à l'UNIV-ONLINE ! Nous sommes ravis de l'intérêt que vous portez à notre établissement pour la poursuite de votre parcours universitaire. Notre processus de candidature est entièrement dématérialisé, simple et accessible, afin de vous permettre de postuler à tout moment, où que vous soyez dans le monde. \n\nPour déposer votre dossier, il vous suffit de vous rendre sur notre portail d'admission en ligne et de créer votre espace personnel. Vous pourrez ensuite sélectionner la formation de votre choix et y déposer les pièces justificatives demandées (généralement votre CV, une lettre de motivation présentant votre projet professionnel, et vos derniers relevés de notes). Une fois votre dossier validé par vos soins, notre commission pédagogique l'étudiera avec la plus grande attention et vous recevrez un retour officiel sous deux semaines.\n\nSachez que toute l'équipe de la scolarité reste à votre entière disposition pour vous accompagner pas à pas dans cette démarche. N'hésitez pas à nous solliciter si vous rencontrez la moindre difficulté ou si vous avez des questions sur les prérequis de la formation visée. Nous avons hâte de découvrir votre profil et de vous compter très bientôt parmi nos futurs étudiants !",
+      "date": "2026-06-23T06:12:03.613Z"
+    },
+    {
+      "id": "msg_1782196369171",
+      "senderName": "Visiteur Intéressé",
+      "senderRole": "guest",
+      "receiverName": "Administration",
+      "text": "Quels sont les frais de scolarité ?",
+      "date": "2026-06-23T06:32:49.171Z"
+    },
+    {
+      "id": "msg_1782196385494",
+      "senderName": "Administration",
+      "senderRole": "tutor",
+      "receiverName": "Visiteur Intéressé",
+      "text": "Bonjour Visiteur Intéressé, merci pour votre prise de contact. Pour toute assistance immédiate liée à votre inscription ou scolarité générale, l'administration reste présente du lundi au vendredi. Comment puis-je vous guider ?",
+      "date": "2026-06-23T06:33:05.494Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay1",
+      "userId": "student1",
+      "formationId": 1,
+      "amount": 2500,
+      "date": "2026-06-21T00:21:44.291Z",
+      "status": "completed"
+    }
+  ],
+  "timetable": [
+    {
+      "id": "t1",
+      "courseTitle": "Conception Web (React)",
+      "professorName": "Prof. Martin",
+      "dayOfWeek": "Lundi",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "room": "Amphi d'E-learning",
+      "color": "blue",
+      "filiere": "informatique"
+    },
+    {
+      "id": "t2",
+      "courseTitle": "Backend & APIs (Express/Node)",
+      "professorName": "Prof. Martin",
+      "dayOfWeek": "Mardi",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "room": "Salle Virtuelle B",
+      "color": "indigo",
+      "filiere": "informatique"
+    },
+    {
+      "id": "t3",
+      "courseTitle": "Marketing & Stratégie",
+      "professorName": "Prof. Dubois",
+      "dayOfWeek": "Mercredi",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "room": "Amphi d'E-learning",
+      "color": "amber",
+      "filiere": "marketing"
+    },
+    {
+      "id": "t4",
+      "courseTitle": "Bases de Données (MongoDB)",
+      "professorName": "Prof. Martin",
+      "dayOfWeek": "Jeudi",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "room": "Salle Informatique 301",
+      "color": "emerald",
+      "filiere": "informatique"
+    },
+    {
+      "id": "t5",
+      "courseTitle": "Introduction à l'Intelligence Artificielle",
+      "professorName": "Prof. Martin",
+      "dayOfWeek": "Vendredi",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "room": "Amphi d'Honneur",
+      "color": "violet",
+      "filiere": "informatique"
+    },
+    {
+      "id": "t6",
+      "courseTitle": "Management des Équipes & Leadership",
+      "professorName": "Prof. Dubois",
+      "dayOfWeek": "Lundi",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "room": "Salle Virtuelle C",
+      "color": "violet",
+      "filiere": "gestion"
+    },
+    {
+      "id": "t7",
+      "courseTitle": "Contrôle de Gestion Financière",
+      "professorName": "Prof. Dubois",
+      "dayOfWeek": "Mercredi",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "room": "Salle d'Études 204",
+      "color": "amber",
+      "filiere": "gestion"
+    },
+    {
+      "id": "t8",
+      "courseTitle": "Droit des Sociétés & Contrats",
+      "professorName": "Prof. Laurent",
+      "dayOfWeek": "Mardi",
+      "startTime": "09:00",
+      "endTime": "11:30",
+      "room": "Amphi de Droit",
+      "color": "violet",
+      "filiere": "droit"
+    },
+    {
+      "id": "t9",
+      "courseTitle": "Propriété Intellectuelle & Numérique",
+      "professorName": "Prof. Laurent",
+      "dayOfWeek": "Vendredi",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "room": "Salle d'Études 202",
+      "color": "amber",
+      "filiere": "droit"
+    },
+    {
+      "id": "t10",
+      "courseTitle": "E-Commerce & SEO Stratégique",
+      "professorName": "Prof. Dubois",
+      "dayOfWeek": "Jeudi",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "room": "Lab Digital 405",
+      "color": "emerald",
+      "filiere": "marketing"
+    },
+    {
+      "id": "t11",
+      "courseTitle": "Réseaux Sociaux & Content Strategy",
+      "professorName": "Prof. Dubois",
+      "dayOfWeek": "Vendredi",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "room": "Lab Digital 405",
+      "color": "emerald",
+      "filiere": "marketing"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "a1",
+      "userId": "student1",
+      "userName": "Pierre Martin",
+      "date": "21 Mai 2026",
+      "courseTitle": "Conception Web (React)",
+      "status": "present",
+      "signed": true,
+      "timeSigned": "09:03 UTC"
+    },
+    {
+      "id": "a2",
+      "userId": "student1",
+      "userName": "Pierre Martin",
+      "date": "22 Mai 2026",
+      "courseTitle": "Backend & APIs (Express/Node)",
+      "status": "late",
+      "signed": true,
+      "timeSigned": "14:14 UTC"
+    },
+    {
+      "id": "a3",
+      "userId": "student1",
+      "userName": "Pierre Martin",
+      "date": "25 Mai 2026",
+      "courseTitle": "Marketing & Stratégie",
+      "status": "absent",
+      "signed": false
+    },
+    {
+      "id": "a4",
+      "userId": "student1",
+      "userName": "Pierre Martin",
+      "date": "29 Mai 2026",
+      "courseTitle": "Introduction à l'Intelligence Artificielle",
+      "status": "present",
+      "signed": false
+    },
+    {
+      "id": "a_1782175785004",
+      "userId": "user_demo",
+      "userName": "Élève Démo",
+      "date": "23 juin 2026",
+      "courseTitle": "Conception Web (React)",
+      "status": "absent",
+      "signed": false
+    },
+    {
+      "id": "a_1782175800590",
+      "userId": "user_demo",
+      "userName": "Élève Démo",
+      "date": "23 juin 2026",
+      "courseTitle": "React",
+      "status": "absent",
+      "signed": false
+    }
+  ],
+  "receipts": [
+    {
+      "id": "rcpt1",
+      "paymentId": "pay1",
+      "userId": "student1",
+      "userName": "Pierre Martin",
+      "amount": 2500,
+      "date": "28 Mai 2026",
+      "receiptNumber": "RE-2026-0001",
+      "courseTitle": "Informatique & Génie Logiciel",
+      "paymentMethod": "Carte Bleue (Visa **** 4970)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EDU CFA Online University Portal",
+  "description": "A complete full-stack modern online university portal featuring student registrations, real-time Admissions manager, courses enrollment panel, tutoring chat powered by Gemini, and a responsive Analytics Dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
